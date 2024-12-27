@@ -1,11 +1,13 @@
 import Home from "./pages/Home";
 import Nav from "./pages/Nav";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter, useNavigate } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  const navigate = useNavigate();
   return (
     <HashRouter>
+      <button onClick={() => navigate("/")}>Home</button>
       <Routes>
         <Route path="/" element={<Nav />}>
           <Route index element={<Home />} />
