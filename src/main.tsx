@@ -16,3 +16,5 @@ createRoot(document.getElementById("root")!).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+
+//"build": "tsc -b && vite build",
