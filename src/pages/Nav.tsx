@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../assets/A.png";
 import "../styles/nav.css";
 
@@ -18,7 +18,6 @@ function Nav() {
           </Link>
         </div>
       </nav>
-      <Outlet />
     </div>
   );
 }

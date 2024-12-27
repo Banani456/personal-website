@@ -1,13 +1,11 @@
 import "../styles/home.css";
 import "../styles/nav.css";
-import Nav from "./Nav";
 import me from "../assets/Ananya cartoon.png";
 import projs from "../assets/projectsbtn.png";
 
 function Home() {
   return (
     <div>
-      <Nav />
       <header>
         <h1>Hi I'm Ananya!</h1>
         <img src={me} id="me"></img>
