@@ -17,4 +17,7 @@ createRoot(document.getElementById("root")!).render(
   </StrictMode>
 );
 
+//"predeploy": "npm run build",
+//"deploy": "gh-pages -d build",
+//"dev": "vite",
 //"build": "tsc -b && vite build",
