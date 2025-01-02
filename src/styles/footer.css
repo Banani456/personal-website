@@ -1,0 +1,10 @@
+#footer {
+  border-top: #fcb1b1 dashed 4px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  #footer {
+    border-top: #012102 dashed 4px;
+  }
+}

@@ -4,11 +4,11 @@ import "../styles/nav.css";
 
 function Nav() {
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="nav-logo">
           <Link to="/">
-            <img src={logo} alt="Logo" />
+            <img src={logo} className="button" alt="Logo" />
           </Link>
         </div>
 
@@ -18,7 +18,7 @@ function Nav() {
           </Link>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
 

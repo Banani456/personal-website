@@ -1,5 +1,6 @@
-import Home from "./pages/Home";
-import Nav from "./pages/Nav";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </HashRouter>
   );
 }

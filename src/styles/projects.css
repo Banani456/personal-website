@@ -1,0 +1,34 @@
+.list {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  list-style-type: none;
+}
+
+.text,
+.wire-area {
+  display: flex;
+  align-items: center;
+}
+
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+}
+
+.text img {
+  width: 125px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.wire-area img {
+  margin-left: 2vw;
+  height: 20vh;
+}
+
+.desc {
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
