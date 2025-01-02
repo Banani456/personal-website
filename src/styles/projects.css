@@ -1,7 +1,16 @@
+#page {
+  margin-left: 18vw;
+  margin-right: 18vw;
+}
+
 .list {
-  margin-left: 10vw;
-  margin-right: 10vw;
   list-style-type: none;
+}
+
+.proj:hover {
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  color: #b1ff64;
 }
 
 .text,
@@ -25,7 +34,7 @@ li {
 
 .wire-area img {
   margin-left: 2vw;
-  height: 20vh;
+  height: 25vh;
 }
 
 .desc {

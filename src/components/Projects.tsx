@@ -5,10 +5,11 @@ import plug from "../assets/plug.png";
 
 function Projects() {
   return (
-    <>
+    <div id="page">
+      <h1>projects</h1>
       <ul className="list">
         {/*1*/}
-        <div>
+        <div className="proj">
           <div className="text">
             <img src={see} className="button" alt="See" />
             <li className="bullet">
@@ -17,7 +18,7 @@ function Projects() {
             </li>
           </div>
           <div className="wire-area">
-            <img src={wire} alt="Connector" className="connector-image" />
+            <img src={wire} alt="Connector" />
             <ul className="desc">
               <li>
                 Engineered a website with a ReactJS frontend and Convex backend
@@ -35,7 +36,7 @@ function Projects() {
         </div>
 
         {/*2*/}
-        <div>
+        <div className="proj">
           <div className="text">
             <img src={see} className="button" alt="See" />
             <li className="bullet">
@@ -47,7 +48,7 @@ function Projects() {
             </li>
           </div>
           <div className="wire-area">
-            <img src={wire} alt="Connector" className="connector-image" />
+            <img src={wire} alt="Connector" />
             <ul className="desc">
               <li>
                 Programmed a React Native application with account login, and
@@ -63,7 +64,7 @@ function Projects() {
         </div>
 
         {/*3*/}
-        <div>
+        <div className="proj">
           <div className="text">
             <img src={see} className="button" alt="See" />
             <li className="bullet">
@@ -74,7 +75,7 @@ function Projects() {
             </li>
           </div>
           <div className="wire-area">
-            <img src={plug} alt="Connector" className="connector-image" />
+            <img src={plug} alt="Connector" />
             <ul className="desc">
               <li>
                 Created a database surfing tool using Flask and pandas to parse
@@ -90,7 +91,7 @@ function Projects() {
           </div>
         </div>
       </ul>
-    </>
+    </div>
   );
 }
 

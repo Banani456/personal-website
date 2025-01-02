@@ -1,6 +1,7 @@
 #footer {
   border-top: #fcb1b1 dashed 4px;
   text-align: center;
+  padding: 2vw;
 }
 
 @media (prefers-color-scheme: light) {
