@@ -1,4 +1,5 @@
 import "../styles/projects.css";
+import { Link } from "react-router-dom";
 import see from "../assets/see.png";
 import wire from "../assets/wire.png";
 import plug from "../assets/plug.png";
@@ -11,7 +12,9 @@ function Projects() {
         {/*1*/}
         <div className="proj">
           <div className="text">
-            <img src={see} className="button" alt="See" />
+            <Link to="https://github.com/miguel-merlin/iWih" target="_blank">
+              <img src={see} className="button" alt="See" />
+            </Link>
             <li className="bullet">
               <h2>AI Gender-Based Medical Bias Detector (iWIH @ HackMIT)</h2>
               <h3> Sep 2024 - Oct 2024</h3>
@@ -38,7 +41,9 @@ function Projects() {
         {/*2*/}
         <div className="proj">
           <div className="text">
-            <img src={see} className="button" alt="See" />
+            <Link to="https://github.com/ananyashri/AmoramaApp" target="_blank">
+              <img src={see} className="button" alt="See" />
+            </Link>
             <li className="bullet">
               <h2>
                 Lonliness Battling Picture App for the Elderly (Amorama @ iSTEM
@@ -66,7 +71,12 @@ function Projects() {
         {/*3*/}
         <div className="proj">
           <div className="text">
-            <img src={see} className="button" alt="See" />
+            <Link
+              to="https://github.com/ananyashri/Kumon-Data-Surfer"
+              target="_blank"
+            >
+              <img src={see} className="button" alt="See" />
+            </Link>
             <li className="bullet">
               <h2>
                 CMS Data Surfing App (Web Application Developer Intern @ Kumon)
