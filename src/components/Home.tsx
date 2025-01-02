@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 import "../styles/nav.css";
 import me from "../assets/Ananya cartoon.png";
@@ -5,10 +6,17 @@ import projbtn from "../assets/projectsbtn.png";
 import expbtn from "../assets/experience.png";
 import resumebtn from "../assets/resume.png";
 import Projects from "./Projects";
+import Experience from "./Experience";
 
 function Home() {
   const scrollToProj = () => {
     const element = document.getElementById("projects");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const scrollToExp = () => {
+    const element = document.getElementById("exp");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -37,8 +45,22 @@ function Home() {
           className="button"
           id="projs"
         ></img>
-        <img src={expbtn} className="button" id="projs"></img>
-        <img src={resumebtn} className="button" id="projs"></img>
+        <img
+          src={expbtn}
+          onClick={scrollToExp}
+          className="button"
+          id="projs"
+        ></img>
+
+        <Link
+          to="https://docs.google.com/document/d/1vfTR0X_5gAJ6bh4KdtKQfXaeGVoSVyJ3tqgekzQRZ_w/edit?usp=sharing"
+          target="_blank"
+        >
+          <img src={resumebtn} className="button" id="projs"></img>
+        </Link>
+      </div>
+      <div id="exp">
+        <Experience />
       </div>
       <div id="projects">
         <Projects />

@@ -61,6 +61,7 @@ header {
 #buttons img {
   height: 125px;
   width: auto;
-  margin: 5vw;
-  margin-bottom: 10vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
