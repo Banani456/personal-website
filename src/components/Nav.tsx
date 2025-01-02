@@ -16,6 +16,20 @@ function Nav() {
           <Link to="/" className="nav-link">
             Home
           </Link>
+          <Link
+            to="https://www.linkedin.com/in/anshri/"
+            className="nav-link"
+            target="_blank"
+          >
+            LinkedIn
+          </Link>
+          <Link
+            to="https://github.com/ananyashri"
+            className="nav-link"
+            target="_blank"
+          >
+            Github
+          </Link>
         </div>
       </nav>
     </>

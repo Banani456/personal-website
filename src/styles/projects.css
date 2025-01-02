@@ -12,6 +12,11 @@
   -webkit-transition: all 0.4s ease;
   color: #b1ff64;
 }
+@media (prefers-color-scheme: light) {
+  .proj:hover {
+    color: #07540a;
+  }
+}
 
 .text,
 .wire-area {

@@ -47,7 +47,7 @@ header {
 }
 
 @media (prefers-color-scheme: light) {
-  h1 {
+  #hiananya {
     border-right: 4px solid #07540a;
   }
 }
